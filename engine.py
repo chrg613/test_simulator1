@@ -28,7 +28,7 @@ class SimulationState(BaseModel):
 class SimulationEngine:
     def __init__(self):
         vertexai.init(
-            project="gen-lang-client-0932634537",
+            project="project_id_here",
             location="us-central1"
         )
         # Vertex-supported model

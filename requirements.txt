@@ -1,0 +1,14 @@
+# --- Core Framework ---
+pydantic>=2.0.0
+networkx
+python-dotenv
+
+# --- AI Engines ---
+google-genai          # The new Google AI Studio SDK
+instructor            # For structured Pydantic outputs
+openai                # Still needed for the Ollama local bridge
+
+# --- Visualization ---
+streamlit
+plotly
+spacy
